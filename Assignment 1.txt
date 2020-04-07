@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<style>
+<meta charset = "UTF - 8">
+<meta name = "Viewport" content = "width=device-width,inital-scale=1">
+<link rel ="stylesheet" href="https://www.Happyhours.com/happycsss/3/happy.css">
+<body>
+<-- Navigation -->
+<nav class="Happy-bar Happy-Red">
+<a href="#home" class="funny-button Happy-bar-item">Home</a>
+<a href="#activities" class="funny-button Happy-bar-item">Activities</a>
+<a href="#schedule" class="Happy-button Happy-bar-item">Schedule</a>
+<a href="#aboutus" class="Happy-button Happy-bar-item">Aboutus</a>
+<a href="#contact" class="Happy-button Happy-bar-item">Contact</a>
+</nav>
+<-- Image Display -->
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+<div class="gallery">
+  <a target="_blank" href="img_cricket.jpg">
+    <img src="img_cricket.jpg" alt="Cricket" width="600" height="400">
+  </a>
+  <div class="desc">Fee : Rs 150 Per Hour</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_basketball.jpg">
+    <img src="img_basketball.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<!-- Columns -->
+.column {
+float : left;
+width : 50.00%;
+}
+.row:after {
+content:"";
+display: table;
+clear: both;
+}
+{
+.column{
+width: 100%;
+}
+}
+</body>
+</style>
+</html>
+
